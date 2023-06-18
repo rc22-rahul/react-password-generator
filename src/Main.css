@@ -1,0 +1,75 @@
+body {
+  font-family: "Zilla Slab", serif;
+  background: linear-gradient(-225deg, #e294e9 0%, #f9fea5 100%);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.generator-header {
+  text-align: center;
+  color: darkmagenta;
+  text-shadow: 1px 1px 2px black;
+}
+
+.generator-password {
+  padding: 13px 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  border-radius: 5px;
+  font-size: 17px;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+;
+}
+
+button:hover{
+  color:purple
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: black;
+  margin-right: 10px;
+}
+
+.display-password{
+  width: 400px;
+  margin-right: 10px;
+  font-size: 25px;
+  color:purple
+}
+
+.password-length{
+  width: 40px;
+}
+
+label{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.generator__btn{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding:8px;
+  border-radius: 10px;
+}
+
+input[type='checkbox'] {
+  accent-color: purple;
+}
